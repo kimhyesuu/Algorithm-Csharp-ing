@@ -4,4 +4,3 @@ C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\백준알고리즘\obj\Debug\백준알고리즘10952번.csproj.CoreCompileInputs.cache
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\백준알고리즘\obj\Debug\백준알고리즘.exe
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\백준알고리즘\obj\Debug\백준알고리즘.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\백준알고리즘\obj\Debug\백준알고리즘10952번.csprojAssemblyReference.cache
