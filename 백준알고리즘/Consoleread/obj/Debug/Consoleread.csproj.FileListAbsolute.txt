@@ -1,7 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\Consoleread\bin\Debug\Consoleread.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\Consoleread\bin\Debug\Consoleread.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\Consoleread\bin\Debug\Consoleread.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\Consoleread\obj\Debug\Consoleread.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\Consoleread\obj\Debug\Consoleread.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\Consoleread\obj\Debug\Consoleread.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\Consoleread\obj\Debug\Consoleread.csprojAssemblyReference.cache
