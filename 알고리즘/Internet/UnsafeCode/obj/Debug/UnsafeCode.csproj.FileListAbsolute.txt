@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\UnsafeCode\bin\Debug\UnsafeCode.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\UnsafeCode\bin\Debug\UnsafeCode.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\UnsafeCode\bin\Debug\UnsafeCode.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\UnsafeCode\obj\Debug\UnsafeCode.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\UnsafeCode\obj\Debug\UnsafeCode.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\UnsafeCode\obj\Debug\UnsafeCode.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\UnsafeCode\obj\Debug\UnsafeCode.pdb

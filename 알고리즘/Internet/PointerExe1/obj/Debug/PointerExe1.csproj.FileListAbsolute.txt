@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\PointerExe1\obj\Debug\PointerExe1.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\PointerExe1\obj\Debug\PointerExe1.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\PointerExe1\bin\Debug\PointerExe1.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\PointerExe1\bin\Debug\PointerExe1.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\PointerExe1\bin\Debug\PointerExe1.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\PointerExe1\obj\Debug\PointerExe1.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\PointerExe1\obj\Debug\PointerExe1.pdb

@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\N과M\bin\Debug\N과M.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\N과M\bin\Debug\N과M.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\N과M\bin\Debug\N과M.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\N과M\obj\Debug\N과M.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\N과M\obj\Debug\N과M.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\N과M\obj\Debug\N과M.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\N과M\obj\Debug\N과M.pdb
