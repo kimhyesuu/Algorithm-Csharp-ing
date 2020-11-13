@@ -1,0 +1,14 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\BinaryTreeExe2\bin\Debug\BinaryTreeExe2.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\BinaryTreeExe2\bin\Debug\BinaryTreeExe2.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\BinaryTreeExe2\bin\Debug\BinaryTreeExe2.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\BinaryTreeExe2\obj\Debug\BinaryTreeExe2.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\BinaryTreeExe2\obj\Debug\BinaryTreeExe2.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\BinaryTreeExe2\obj\Debug\BinaryTreeExe2.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\BinaryTreeExe2\obj\Debug\BinaryTreeExe2.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryTreeExe2\bin\Debug\BinaryTreeExe2.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryTreeExe2\bin\Debug\BinaryTreeExe2.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryTreeExe2\bin\Debug\BinaryTreeExe2.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryTreeExe2\obj\Debug\BinaryTreeExe2.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryTreeExe2\obj\Debug\BinaryTreeExe2.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryTreeExe2\obj\Debug\BinaryTreeExe2.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryTreeExe2\obj\Debug\BinaryTreeExe2.pdb

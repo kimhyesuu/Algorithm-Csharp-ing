@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryArray\bin\Debug\BinaryArray.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryArray\bin\Debug\BinaryArray.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryArray\bin\Debug\BinaryArray.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryArray\obj\Debug\BinaryArray.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryArray\obj\Debug\BinaryArray.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryArray\obj\Debug\BinaryArray.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinaryArray\obj\Debug\BinaryArray.pdb
