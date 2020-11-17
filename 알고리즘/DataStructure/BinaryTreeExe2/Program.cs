@@ -34,7 +34,7 @@ namespace BinaryTreeExe2
          bt.Root.Left.Right = new BinaryTreeNode<int>(5);
          bt.Root.Left.Left = new BinaryTreeNode<int>(4);
 
-         bt.PostorderIterative();
+         bt.MorePostorderIterative();
          //bt.PreorderTraversal();
 
          Console.ReadKey();
@@ -43,6 +43,8 @@ namespace BinaryTreeExe2
 
    public class BinaryTree<T>
    {
+      #region 트리 구조
+      
       public BinaryTreeNode<T> Root { get; private set; }
 
       public BinaryTree(T root)
@@ -65,8 +67,7 @@ namespace BinaryTreeExe2
       }
 
       //반복 방식으로 구현한 이진 트리 순회
-
-
+      #endregion
       #region 후위
 
       //2. 스택이 빌 때까지 루프를 돈다.
@@ -100,8 +101,8 @@ namespace BinaryTreeExe2
             node = stack.Pop();
 
             if (node.Right != null &&
-               stack.Count > 0 &&
-               node.Right == stack.Peek())
+               stack.Count > 0 &&              
+               node.Right == stack.Peek()) // 트리의 마지막을 오른족 값을 갖고 있기 때문에   
             {
                // 오른쪽 자식 노드를 Pop
                var right = stack.Pop();
@@ -124,8 +125,6 @@ namespace BinaryTreeExe2
             {
                Console.Write(node.Data);
             }
-
-
          }
       }
       public void MorePostorderIterative()
@@ -168,7 +167,6 @@ namespace BinaryTreeExe2
 
       }
       #endregion
-
       #region 전위 
       //구현 순서
 
