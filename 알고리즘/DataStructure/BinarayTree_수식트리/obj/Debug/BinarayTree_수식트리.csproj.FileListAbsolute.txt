@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinarayTree_수식트리\bin\Debug\BinarayTree_수식트리.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinarayTree_수식트리\bin\Debug\BinarayTree_수식트리.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinarayTree_수식트리\bin\Debug\BinarayTree_수식트리.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinarayTree_수식트리\obj\Debug\BinarayTree_수식트리.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinarayTree_수식트리\obj\Debug\BinarayTree_수식트리.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinarayTree_수식트리\obj\Debug\BinarayTree_수식트리.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\BinarayTree_수식트리\obj\Debug\BinarayTree_수식트리.pdb
