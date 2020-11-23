@@ -68,6 +68,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarayTree_수식트리(�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refer", "BaekJoon\Refer\Refer.csproj", "{FDF8FE0A-82BA-45BE-B2EE-AFB0F51E096B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "문제모음", "BaekJoon\문제모음\문제모음.csproj", "{F844072A-B7F5-4F84-BEE9-0FBF50C8F8CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,6 +188,10 @@ Global
 		{FDF8FE0A-82BA-45BE-B2EE-AFB0F51E096B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDF8FE0A-82BA-45BE-B2EE-AFB0F51E096B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDF8FE0A-82BA-45BE-B2EE-AFB0F51E096B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F844072A-B7F5-4F84-BEE9-0FBF50C8F8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F844072A-B7F5-4F84-BEE9-0FBF50C8F8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F844072A-B7F5-4F84-BEE9-0FBF50C8F8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F844072A-B7F5-4F84-BEE9-0FBF50C8F8CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -219,6 +225,7 @@ Global
 		{2D997DF2-18BE-4881-8D8C-0F47F788F9CA} = {63057049-1CA6-4108-B596-6CECD4A5233B}
 		{EB3DE2D1-C5DC-4CAB-9A56-2261CC46541A} = {63057049-1CA6-4108-B596-6CECD4A5233B}
 		{FDF8FE0A-82BA-45BE-B2EE-AFB0F51E096B} = {2CE66060-652A-445B-8631-F620ABC54F5C}
+		{F844072A-B7F5-4F84-BEE9-0FBF50C8F8CD} = {2CE66060-652A-445B-8631-F620ABC54F5C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A7CBEA5-E02E-4F8A-9B41-CFB2701E259A}
