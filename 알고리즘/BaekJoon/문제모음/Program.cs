@@ -12,6 +12,49 @@ namespace 문제모음
       {
       }
 
+      private static void Square()
+      {
+         string[] input = Console.ReadLine().Split(' ');
+         int x = int.Parse(input[0]);
+         int y = int.Parse(input[1]);
+         int w = int.Parse(input[2]);
+         int h = int.Parse(input[3]);
+         int min;
+
+         min = x < w - x ? x : w - x;
+         min = y < h - y ? min > y ? y : min : min > h - y ? h - y : min;
+
+
+         Console.WriteLine(min);
+      }
+      private static void Easy2()
+      {
+         int N = int.Parse(Console.ReadLine());
+         var sb = new StringBuilder();
+
+         for (int i = 1; i <= N; i++)
+         {
+            for (int k = 0; k < i; k++)
+            {
+               sb.Append("*");
+            }
+            sb.AppendLine();
+         }
+
+         Console.WriteLine(sb);
+      }
+      private static void Easy()
+      {
+         short N = short.Parse(Console.ReadLine());
+         StringBuilder sb = new StringBuilder();
+
+         for (int i = N; i > 0; i--)
+         {
+            sb.AppendLine(i.ToString());
+         }
+
+         Console.WriteLine(sb);
+      }
       private static void AlphaSearch()
       {
          var inp = Console.ReadLine();

@@ -7,11 +7,8 @@
    {
       static void Main(string[] args)
       {
-         MeAlphaSearch();
-         AlphaSearch();
-        
-      }
+      
 
-    
+      }
    }
 }
