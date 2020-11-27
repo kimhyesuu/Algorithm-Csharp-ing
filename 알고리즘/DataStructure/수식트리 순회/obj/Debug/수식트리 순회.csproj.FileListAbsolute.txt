@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\수식트리 순회\bin\Debug\수식트리 순회.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\수식트리 순회\bin\Debug\수식트리 순회.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\수식트리 순회\bin\Debug\수식트리 순회.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\수식트리 순회\obj\Debug\수식트리 순회.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\수식트리 순회\obj\Debug\수식트리 순회.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\수식트리 순회\obj\Debug\수식트리 순회.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\DataStructure\수식트리 순회\obj\Debug\수식트리 순회.csprojAssemblyReference.cache

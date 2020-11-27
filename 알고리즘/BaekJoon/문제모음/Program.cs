@@ -12,6 +12,264 @@ namespace 문제모음
       {
       }
 
+      private static void Reverse()
+      {
+         string[] input = Console.ReadLine().Split(' ');
+         char[] first = input[0].ToCharArray();
+         char[] second = input[1].ToCharArray();
+
+         //Array.Reverse(first);
+         //Array.Reverse(second);
+         char temp;
+
+         temp = first[0];
+         first[0] = first[2];
+         first[2] = temp;
+
+         temp = second[0];
+         second[0] = second[2];
+         second[2] = temp;
+
+         input[0] = new string(first);
+         input[1] = new string(second);
+         if (int.Parse(input[0]) > int.Parse(input[1]))
+         {
+            Console.WriteLine(first);
+         }
+         else
+         {
+            Console.WriteLine(second);
+         }
+
+         Console.ReadKey();
+      }
+      private static void StarShootingEx3()
+      {
+         int input = int.Parse(Console.ReadLine());
+         // 5
+         var sb = new StringBuilder();
+         //뎁스를 만든다.
+         for (int i = 0; i < input - 1; i++)
+         {
+            //공백을 어떻게 줄지 쓴다. 가운데서 좌우로 퍼질때 
+            // 왼쪽 공백만 한칸씩 줄여주면 되네 
+            for (int j = input - 1; j > i; j--)
+            {
+               sb.Append(" ");
+            }
+
+            // 한 뎁스마다 홀수개로 늘어난다.
+            for (int j = 0; j < 2 * i + 1; j++)
+            {
+               if (j == 0 || j == 2 * i)
+                  sb.Append("*");
+               else
+                  sb.Append(" ");
+            }
+
+            sb.AppendLine();
+         }
+
+         for (int i = 0; i < 2 * input - 1; i++)
+            sb.Append("*");
+
+         Console.WriteLine(sb);
+      }
+      private static void WhiteSpaceDivision()
+      {
+         string[] input = Console.ReadLine().Split(' ');
+
+         if (input[0] == "" && input[input.Length - 1] == "")
+            Console.WriteLine(input.Length - 2);
+         else if (input[0] == "" || input[input.Length - 1] == "")
+            Console.WriteLine(input.Length - 1);
+         else
+            Console.WriteLine(input.Length);
+
+      }
+      private static void StudyLanguage()
+      {
+         string input = Console.ReadLine();
+         int[] arr = new int[26];
+         char[] inputChar;
+
+         inputChar = input.ToLower().ToCharArray();
+
+         for (int i = 0; i < inputChar.Length; i++)
+         {
+            for (int k = 97; k < 123; k++)
+            {
+               if (inputChar[i] == k)
+               {
+                  arr[k - 97] += 1;
+                  break;
+               }
+            }
+         }
+
+         int? max = arr[0];
+         foreach (var c in arr)
+         {
+            if (max < c)
+            {
+               max = c;
+            }
+         }
+
+         int cnt = 0;
+         int result = 0;
+         for (int i = 0; i < arr.Length; i++)
+         {
+            if (max == arr[i])
+            {
+               cnt++;
+               result = i;
+               if (cnt > 1)
+               {
+                  max = null;
+                  break;
+               }
+            }
+         }
+
+         if (max == null)
+            Console.WriteLine("?");
+         else
+            Console.WriteLine($"{(char)(result + 65)}");
+      }
+      private static void StringRepetition()
+      {
+         int n = int.Parse(Console.ReadLine());
+
+         string cmd_Line;
+         string[] cmd_Split;
+
+         StringBuilder sb = new StringBuilder();
+         for (int i = 0; i < n; i++)
+         {
+            cmd_Line = Console.ReadLine();
+            cmd_Split = cmd_Line.Split('\x020');
+
+            int _reapeat = int.Parse(cmd_Split[0]);
+            string _cen = cmd_Split[1];
+
+            string _result = "";
+            for (int c = 0; c < _cen.Length; c++)
+            {
+               for (int r = 0; r < _reapeat; r++)
+               {
+                  _result += _cen.Substring(c, 2);
+               }
+            }
+
+            sb = sb.AppendLine(_result);
+         }
+
+         Console.WriteLine(sb.ToString());
+      }
+      private static void MeStringRepetition()
+      {
+         int T = int.Parse(Console.ReadLine());
+         string[] input;
+         string[] Num = new string[T];
+         string[] character = new string[T];
+
+         for (int i = 0; i < T; i++)
+         {
+            input = Console.ReadLine().Split(' ');
+            Num[i] = input[0];
+            character[i] = input[1];
+         }
+
+         var sb = new StringBuilder();
+         char[] temp;
+
+         for (int i = 0; i < T; i++)
+         {
+            for (int k = 0; k < character[i].Length; k++)
+            {
+               temp = character[i].ToCharArray();
+               for (int j = 0; j < int.Parse(Num[i]); j++)
+               {
+                  sb.Append(temp[k]);
+               }
+            }
+            sb.AppendLine();
+         }
+
+         Console.WriteLine(sb);
+
+      }
+      private static void Square2()
+      {
+         int[] x = new int[4];
+         int[] y = new int[4];
+
+         for (int i = 0; i < 3; i++)
+         {
+            string[] Square = Console.ReadLine().Split(' ');
+
+            x[i] = int.Parse(Square[0]);
+            y[i] = int.Parse(Square[1]);
+         }
+
+         x[3] = x[0];
+         y[3] = y[0];
+
+         if (x[3] == x[1])
+            x[3] = x[2];
+         else if (x[3] == x[2])
+            x[3] = x[1];
+
+         if (y[3] == y[1])
+            y[3] = y[2];
+         else if (y[3] == y[2])
+            y[3] = y[1];
+
+         Console.WriteLine($"{x[3]} {y[3]}");
+      }
+      private static void NShooting()
+      {
+         int N = int.Parse(Console.ReadLine());
+         var sb = new StringBuilder();
+
+         for (int i = 1; i <= N; i++)
+         {
+            sb.AppendLine($"{i}");
+         }
+         Console.WriteLine(sb);
+      }
+      private static void StarShooting()
+      {
+         int N = int.Parse(Console.ReadLine());
+         var sb = new StringBuilder();
+
+         for (int i = 1; i <= N; i++)
+         {
+            for (int k = 0; k < N - i; k++)
+               sb.Append(" ");
+            for (int j = 0; j < i; j++)
+               sb.Append("*");
+            sb.AppendLine();
+         }
+
+         Console.WriteLine(sb);
+
+         int NT = Convert.ToInt32(Console.ReadLine());
+
+         for (int i = 0; i < N; i++)
+         {
+            for (int j = N - 1; j >= 0; j--)
+            {
+               if (i < j)
+                  Console.Write(" ");
+               else
+                  Console.Write("*");
+            }
+         }
+            Console.WriteLine();
+
+         }
       private static void Square()
       {
          string[] input = Console.ReadLine().Split(' ');

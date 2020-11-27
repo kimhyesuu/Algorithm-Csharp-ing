@@ -15,9 +15,13 @@ namespace BinarayTree_수식트리
    {
       static void Main(string[] args)
       {
+         var tokens = "10 4 / 3 5 *".Split(' ');
+
          ExpressionTree expressionTree = new ExpressionTree();
 
-         var tokens = "10 4 / 3 5 *".Split(' ');
+         expressionTree.Build(tokens);
+
+
          expressionTree.Evaluate(new Node("*"));
          Console.Read();
 
@@ -34,7 +38,6 @@ namespace BinarayTree_수식트리
       {
          int index = tokens.Length - 1;
          Root = Build(tokens, ref index);
-         Console.WriteLine(Root.Data);
       }
 
       public Node Build(string[] tokens, ref int index)
@@ -54,7 +57,6 @@ namespace BinarayTree_수식트리
             --index;
             node.Left = Build(tokens, ref index);
          }
-         Console.WriteLine(node.Data);
          return node;
       }
 

@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Math\Binomial_Memorization\bin\Debug\Binomial_Memorization.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Math\Binomial_Memorization\bin\Debug\Binomial_Memorization.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Math\Binomial_Memorization\bin\Debug\Binomial_Memorization.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Math\Binomial_Memorization\obj\Debug\Binomial_Memorization.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Math\Binomial_Memorization\obj\Debug\Binomial_Memorization.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Math\Binomial_Memorization\obj\Debug\Binomial_Memorization.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Math\Binomial_Memorization\obj\Debug\Binomial_Memorization.pdb

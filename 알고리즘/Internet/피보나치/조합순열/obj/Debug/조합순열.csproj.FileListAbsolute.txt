@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\피보나치\조합순열\bin\Debug\조합순열.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\피보나치\조합순열\bin\Debug\조합순열.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\피보나치\조합순열\bin\Debug\조합순열.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\피보나치\조합순열\obj\Debug\조합순열.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\피보나치\조합순열\obj\Debug\조합순열.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\피보나치\조합순열\obj\Debug\조합순열.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\알고리즘\Internet\피보나치\조합순열\obj\Debug\조합순열.pdb
