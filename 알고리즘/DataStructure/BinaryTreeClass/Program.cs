@@ -32,6 +32,8 @@ namespace BinaryTreeClass
          Debug.WriteLine(node.Right);
       }
 
+      var path1 = new List<BinaryTreeNode>();
+
    }
 
    public class BinaryTreeNode<T>
@@ -46,4 +48,6 @@ namespace BinaryTreeClass
       }
 
    }
+
+   
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA9EE87E-C59F-4B32-A1DB-36526CED2CBA}</ProjectGuid>
+    <ProjectGuid>{BAFD876F-FDAB-4374-A003-178895A1D076}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Temp</RootNamespace>
-    <AssemblyName>Temp</AssemblyName>
+    <RootNamespace>_문제풀이</RootNamespace>
+    <AssemblyName>_문제풀이</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

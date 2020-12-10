@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ECB6DF72-63B5-49D1-9E96-EFCA77F7BF78}</ProjectGuid>
+    <ProjectGuid>{FF7A1C61-12BE-404F-8183-521F97B33B25}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>N과M</RootNamespace>
-    <AssemblyName>N과M</AssemblyName>
+    <RootNamespace>BinarySearchTreeExe</RootNamespace>
+    <AssemblyName>BinarySearchTreeExe</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

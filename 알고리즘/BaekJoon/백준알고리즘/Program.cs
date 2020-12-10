@@ -11,7 +11,12 @@ namespace 백준알고리즘
    {
       static void Main(string[] args)
       {
+         BackJon10952();
+       
+      }
 
+      private static void BackJon10952()
+      {
          StringBuilder getNumber = new StringBuilder();
          while (true)
          {
@@ -31,7 +36,7 @@ namespace 백준알고리즘
             int sum = a + b;
             if (sum == 0) break;
 
-            if(isFirst)
+            if (isFirst)
             {
                isFirst = false;
                outNumber.Append(sum.ToString());

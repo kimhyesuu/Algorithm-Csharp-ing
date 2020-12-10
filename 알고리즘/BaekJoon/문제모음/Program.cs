@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,32 @@ namespace 문제모음
       {
       }
 
+      private static void Righttriangle()
+      {
+         string[] input;
+         long n1, n2, n3;
+
+         for (; ; )
+         {
+            input = Console.ReadLine().Split(' ');
+
+            if (long.Parse(input[0]) == 0 && long.Parse(input[1]) == 0 && long.Parse(input[2]) == 0)
+               break;
+
+            n1 = long.Parse(input[0]) * long.Parse(input[0]);
+            n2 = long.Parse(input[1]) * long.Parse(input[1]);
+            n3 = long.Parse(input[2]) * long.Parse(input[2]);
+
+            if (n1 + n2 == n3 || n2 + n3 == n1 || n1 + n3 == n2)
+            {
+               Console.WriteLine("right");
+            }
+            else
+            {
+               Console.WriteLine("wrong");
+            }
+         }
+      }
       private static void Reverse()
       {
          string[] input = Console.ReadLine().Split(' ');
@@ -511,6 +538,132 @@ namespace 문제모음
          }
 
          Console.ReadLine();
+      }
+      private static void gugudan()
+      {
+         int N = int.Parse(Console.ReadLine());
+         StringBuilder resultgugudan = new StringBuilder();
+
+         for (int x = 1; x < 10; x++)
+         {
+            resultgugudan.Append(N).Append(" * ").Append(x).Append(" = ").Append(N * x).Append('\n');
+         }
+
+         Console.WriteLine(resultgugudan.ToString());
+         Console.Read();
+      }
+      private static void BackJon10952()
+      {
+         StringBuilder getNumber = new StringBuilder();
+         while (true)
+         {
+            getNumber.AppendLine(Console.ReadLine().ToString());
+            if (getNumber.ToString().Contains("0 0")) break;
+         }
+
+         StringReader readNumber = new StringReader(getNumber.ToString());
+         StringBuilder outNumber = new StringBuilder();
+         bool isFirst = true;
+
+         while (true)
+         {
+            string[] abGet = readNumber.ReadLine().Split();
+            int a = int.Parse(abGet[0]);
+            int b = int.Parse(abGet[1]);
+            int sum = a + b;
+            if (sum == 0) break;
+
+            if (isFirst)
+            {
+               isFirst = false;
+               outNumber.Append(sum.ToString());
+               continue;
+            }
+
+            outNumber.Append("\n").Append(sum.ToString());
+         }
+
+         Console.WriteLine(outNumber.ToString());
+         Console.ReadLine();
+      }
+      private static void Square0()
+      {
+         int x = int.Parse(Console.ReadLine());
+         int y = int.Parse(Console.ReadLine());
+         int multiply = x * y;
+
+         if (multiply > 0)
+         {
+            if (x > 0 && y > 0)
+            {
+               Console.WriteLine(1);
+            }
+            else
+            {
+               Console.WriteLine(3);
+            }
+         }
+         else
+         {
+            if (x > 0 && y < 0)
+            {
+               Console.WriteLine(4);
+            }
+            else
+            {
+               Console.WriteLine(2);
+            }
+         }
+      }
+      private static void Alarm()
+      {
+         string[] a = Console.ReadLine().Split(' ');
+         int h = int.Parse(a[0]);
+         int m = int.Parse(a[1]);
+
+
+         if (m < 45)
+         {
+            h--;
+            m += 60;
+
+            if (h < 0)
+            {
+               h += 24;
+            }
+            else if (h > 23)
+            {
+               h -= 24;
+            }
+         }
+
+         Console.WriteLine("{0} {1}", h, m);
+      }
+      private static void belzip()
+      {
+         int N = int.Parse(Console.ReadLine());
+         int pathCount = 2;
+
+         // 1(1)
+         if (N == 1)
+         {
+            pathCount = 1;
+            Console.WriteLine(pathCount);
+            return;
+         }
+
+         for (int min = 2, max = 7; ; pathCount++)
+         {
+            // 6(2,3,4,5,6,7) 12(8,9,10,11,12,13,14,15,16,17,18,19) 18 24 순으로 갑니다. 
+            if (min <= N && max >= N)
+            {
+               Console.WriteLine(pathCount);
+               return;
+            }
+
+            min = max + 1;
+            max = max + 6 * pathCount;
+         }
       }
    }
 }

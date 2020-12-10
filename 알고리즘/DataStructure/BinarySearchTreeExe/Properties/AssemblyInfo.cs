@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Temp")]
+[assembly: AssemblyTitle("BinarySearchTreeExe")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Temp")]
+[assembly: AssemblyProduct("BinarySearchTreeExe")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("da9ee87e-c59f-4b32-a1db-36526ced2cba")]
+[assembly: Guid("ff7a1c61-12be-404f-8183-521f97b33b25")]
 
 // Version information for an assembly consists of the following four values:
 //

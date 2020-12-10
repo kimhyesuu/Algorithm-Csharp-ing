@@ -1,62 +1,67 @@
-﻿namespace _1109
+﻿namespace _문제풀이
 {
    using System;
    class Program
    {
+      // ccaazzzz
       static void Main(string[] args)
       {
-         
-         
-      }     
-   }
+         string input = Console.ReadLine();
+         int N = int.Parse(input);
 
-   class Solution
-   {
-      int count = 0;
-      int[] arr = new int[1000001];
+         string[] words = WordInputer(N);
+         int countGroupWords = 0;
 
-      public Solution()
-      {
-         var input = Console.ReadLine();
-         int n = int.Parse(input);
-         this.count = Func(n);
-         Console.WriteLine(count);
-      }
-
-      public int Func(int n)
-      {
-         if (n == 1)
+         for (int i = 0; i < words.Length; i++)
          {
-            return 0;
-         }
-
-         if (arr[n] > 0)
-         {
-            return arr[n];
-         }
-
-         arr[n] = Func(n - 1) + 1;
-
-         if (n % 3 == 0)
-         {
-            var temp = Func(n / 3) + 1;
-            if (arr[n] > temp)
+            if (isGroupWord(words[i]))
             {
-               arr[n] = temp;
+               countGroupWords++;
             }
          }
 
-         if (n % 2 == 0)
+         Console.WriteLine(countGroupWords);
+         Console.ReadKey();
+      }
+
+      private static bool isGroupWord(string word)
+      {
+         for (int i = 0; i < word.Length; i++)
          {
-            var temp = Func(n / 2) + 1;
-            if (arr[n] > temp)
+            for (int j = i; j < word.Length; j++)
             {
-               arr[n] = temp;
+               if (j - i > 1)
+               {
+                  if (word[i] == word[j])
+                  {
+                     return false;
+                  }
+               }
+
+               if (word[i] == word[j])
+               {
+                  i += j - i;
+               }
             }
          }
-
-
-         return arr[n];
+         return true;
       }
-   }
+
+      private static string[] WordInputer(int N)
+      {
+         string[] words = new string[N];
+         for (int i = 0; i < N; i++)
+         {
+            words[i] = Console.ReadLine();
+         }
+         return words;
+      }
+   } 
 }
+
+
+// 1 과 1이 시작점이네?
+// https://www.youtube.com/watch?v=827t3uOU_dc 점화식만드는 것 보고 
+// 그 점화식으로 풀기
+
+// https://www.acmicpc.net/problem/10870

@@ -12,7 +12,7 @@ namespace Consoleread
       {
          int a = int.Parse(Console.ReadLine());
          int r = int.Parse(Console.ReadLine());
-            int b = 1_000_000_000;
+         int b = 1_000_000_000;
          Console.WriteLine($"{r} {a}");
          Console.ReadKey();
       }
