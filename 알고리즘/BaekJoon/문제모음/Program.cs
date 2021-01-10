@@ -9,10 +9,93 @@ namespace 문제모음
 {
    class Program
    {
-      static void Main(string[] args)
+      static void Main(string[] args) { }
+    
+      private static void DivisorMultiple()
       {
-      }
 
+         int m = -1;
+         int n = -1;
+         string[] input;
+         var sb = new StringBuilder();
+
+         for (; ; )
+         {
+            input = Console.ReadLine().Split(' ');
+            m = int.Parse(input[0]);
+            n = int.Parse(input[1]);
+
+            if (m == 0 && n == 0)
+            {
+               break;
+            }
+
+            if (m % n == 0)
+            {
+               sb.AppendLine("multiple");
+            }
+            else if (n % m == 0)
+            {
+               sb.AppendLine("factor");
+            }
+            else
+            {
+               sb.AppendLine("neither");
+            }
+         }
+
+
+         Console.WriteLine(sb.ToString());
+      }
+      private static void Temp()
+      {
+         string input = Console.ReadLine();
+         int N = int.Parse(input);
+
+         string[] words = WordInputer(N);
+         int countGroupWords = 0;
+
+         for (int i = 0; i < words.Length; i++)
+         {
+            if (isGroupWord(words[i]))
+            {
+               countGroupWords++;
+            }
+         }
+
+         Console.WriteLine(countGroupWords);
+      }
+      private static bool isGroupWord(string word)
+      {
+         for (int i = 0; i < word.Length; i++)
+         {
+            for (int j = i; j < word.Length; j++)
+            {
+               if (j - i > 1)
+               {
+                  if (word[i] == word[j])
+                  {
+                     return false;
+                  }
+               }
+
+               if (word[i] == word[j])
+               {
+                  i += j - i;
+               }
+            }
+         }
+         return true;
+      }
+      private static string[] WordInputer(int N)
+      {
+         string[] words = new string[N];
+         for (int i = 0; i < N; i++)
+         {
+            words[i] = Console.ReadLine();
+         }
+         return words;
+      }
       private static void Righttriangle()
       {
          string[] input;

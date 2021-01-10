@@ -22,12 +22,10 @@ namespace LCA
       {
          TreeNode<int> rootNode = new TreeNode<int>(
              0,
-             new TreeNode<int>(1,
-                 new TreeNode<int>(2),
-                 new TreeNode<int>(3),
-                 new TreeNode<int>(4,
-                     new TreeNode<int>(5),
-                     new TreeNode<int>(6))
+             new TreeNode<int>(1, new TreeNode<int>(2),
+             new TreeNode<int>(3),
+             new TreeNode<int>(4, new TreeNode<int>(5),
+             new TreeNode<int>(6))
                  ),
              new TreeNode<int>(7,
                  new TreeNode<int>(8),

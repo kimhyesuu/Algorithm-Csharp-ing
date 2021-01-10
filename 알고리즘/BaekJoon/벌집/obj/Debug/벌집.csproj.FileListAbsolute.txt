@@ -1,7 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\벌집\bin\Debug\벌집.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\벌집\bin\Debug\벌집.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\벌집\bin\Debug\벌집.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\벌집\obj\Debug\벌집.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\벌집\obj\Debug\벌집.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\벌집\obj\Debug\벌집.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\벌집\obj\Debug\벌집.csprojAssemblyReference.cache

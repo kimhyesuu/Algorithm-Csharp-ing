@@ -1,7 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\사분면고르기\bin\Debug\사분면고르기.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\사분면고르기\bin\Debug\사분면고르기.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\사분면고르기\bin\Debug\사분면고르기.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\사분면고르기\obj\Debug\사분면고르기.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\사분면고르기\obj\Debug\사분면고르기.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\사분면고르기\obj\Debug\사분면고르기.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\사분면고르기\obj\Debug\사분면고르기.csprojAssemblyReference.cache

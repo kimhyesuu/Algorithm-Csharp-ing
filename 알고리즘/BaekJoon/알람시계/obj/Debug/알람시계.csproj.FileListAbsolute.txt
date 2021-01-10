@@ -1,6 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\알람시계\bin\Debug\알람시계.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\알람시계\bin\Debug\알람시계.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\알람시계\bin\Debug\알람시계.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\알람시계\obj\Debug\알람시계.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\알람시계\obj\Debug\알람시계.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\algorithm\백준알고리즘\알람시계\obj\Debug\알람시계.pdb

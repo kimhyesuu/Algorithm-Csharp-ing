@@ -1,60 +1,36 @@
 ﻿namespace _문제풀이
 {
    using System;
+
    class Program
    {
-      // ccaazzzz
       static void Main(string[] args)
       {
-         string input = Console.ReadLine();
-         int N = int.Parse(input);
+         // 1. N의 갯수를 구하고
+         int N = int.Parse(Console.ReadLine());
 
-         string[] words = WordInputer(N);
-         int countGroupWords = 0;
+         string[] arr = new string[N];
+         arr = Console.ReadLine().Split(' ');
 
-         for (int i = 0; i < words.Length; i++)
+         int[] arr2 = Array.ConvertAll(arr, s => int.Parse(s));
+
+         Array.Sort(arr2);
+
+         int min = 0;
+         int max = 0;
+
+         if (N == 1)
          {
-            if (isGroupWord(words[i]))
-            {
-               countGroupWords++;
-            }
+            min = arr2[0];
+            max = arr2[0];
+         }
+         else
+         {
+            min = arr2[0];
+            max = arr2[N - 1];
          }
 
-         Console.WriteLine(countGroupWords);
-         Console.ReadKey();
-      }
-
-      private static bool isGroupWord(string word)
-      {
-         for (int i = 0; i < word.Length; i++)
-         {
-            for (int j = i; j < word.Length; j++)
-            {
-               if (j - i > 1)
-               {
-                  if (word[i] == word[j])
-                  {
-                     return false;
-                  }
-               }
-
-               if (word[i] == word[j])
-               {
-                  i += j - i;
-               }
-            }
-         }
-         return true;
-      }
-
-      private static string[] WordInputer(int N)
-      {
-         string[] words = new string[N];
-         for (int i = 0; i < N; i++)
-         {
-            words[i] = Console.ReadLine();
-         }
-         return words;
+         Console.WriteLine(min * max);
       }
    } 
 }

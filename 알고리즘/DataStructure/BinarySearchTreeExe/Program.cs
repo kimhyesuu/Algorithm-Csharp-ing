@@ -15,6 +15,20 @@ namespace BinarySearchTreeExe
 
       // 이러한 값 순서는 이진 탐색 트리의 모든 서브트리에 적용
       // 이진 트리 형식은 순회할 때 중위 순회 방식을 사용
+
+      //if (this.Salary < other.Salary)
+      //{
+      //   return 1;
+      //}
+      //else if (this.Salary > other.Salary)
+      //{
+      //   return -1;
+      //}
+      //else
+      //{
+      //   return 0;
+      //}
+
       static void Main(string[] args)
       {
       }
@@ -48,7 +62,7 @@ namespace BinarySearchTreeExe
             // Add() 메서드를 구현한 예제
             public void Add(T data)
             {
-               if (_root == null)
+               if (_root is null)
                {
                   _root = new Node<T>(data);
                   return;
@@ -91,8 +105,130 @@ namespace BinarySearchTreeExe
                   }
                }
             }
-            public bool Search(T data) { return true; }
-            public bool Remove(T data) { return true; }
+            public bool Search(T data)
+            {
+               var node = _root;
+
+               for( ; node != null ;)
+               {
+                  // 노드의 데이터와 search에 data 비교
+                  int cmp = data.CompareTo(node.Data);
+
+                  if(cmp == 0)
+                  {
+                     return true;
+                  }
+                  else if(cmp < 0)
+                  {
+                     node = node.Left;
+                  }
+                  else
+                  {
+                     node = node.Right;
+                  }
+               }
+
+               return false;
+            }
+            public bool SearchRecursive(T data)
+            {
+               return SearchRecursive(_root, data);
+            }
+            private bool SearchRecursive(Node<T> node, T data)
+            {
+               // 꼬리 재귀
+               if (node is null) return false;
+
+               int cmp = data.CompareTo(node.Data);
+
+               if(cmp == 0)
+               {
+                  return true;
+               }
+
+               return cmp < 0 ? SearchRecursive(node.Left, data) : SearchRecursive(node.Right,data);
+
+            }
+            public bool Remove(T data)
+            {
+               var node = _root;
+
+               Node<T> prev = null;
+
+               for( ; node != null ; )
+               {
+                  int cmp = data.CompareTo(node.Data);
+                  if(cmp == 0)
+                  {
+                     break;
+                  }
+                  else if(cmp < 0)
+                  {
+                     prev = node;
+                     node = node.Left;
+                  }
+                  else
+                  {
+                     prev = node;
+                     node = node.Right;
+                  }
+               }
+
+               if (node is null) return false;
+
+               if(node.Left is null && node.Right is null)
+               {
+                  if(prev.Left == node)
+                  {
+                     prev.Left = null;
+                  }
+                  else
+                  {
+                     prev.Right = null;
+                  }
+
+                  node = null;
+               }
+               else if(node.Left is null || node.Right is null)
+               {
+                  var child = node.Left != null ? node.Left : node.Right;
+
+                  if(prev.Left == node)
+                  {
+                     prev.Left = child;
+                  }
+                  else
+                  {
+                     prev.Right = child;
+                  }
+
+                  node = null;
+               }
+               else
+               {
+                  var pre = node;
+                  var min = node.Right;
+
+                  for( ; min.Left != null ; )
+                  {
+                     pre = min;
+                     min = min.Left;
+                  }
+
+                  node.Data = min.Data;
+
+                  if(pre.Left == min)
+                  {
+                     pre.Left = min.Right;
+                  }
+                  else
+                  {
+                     pre.Right = min.Right;
+                  }
+               }
+                  
+               return true;
+            }
 
          }
       }
